@@ -1,0 +1,51 @@
+/*
+Theme Name: El meu tema
+Theme URI: https://github.com/2ASIX2018
+Author: Jose
+Description: Tema d'exemple, per veure com crear temes per a wordpress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: elMeuTema
+*/
+
+/* de custom.css */
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+#userInfoContainer{
+    height: 100%;
+}
+
+#userInfo{
+    color: #ffffff;
+}
+
+/* de login.css*/
+
+
+
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+/*la resta d'estils, els importarem de Bootstrap */
