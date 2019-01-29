@@ -18,6 +18,10 @@ footer {
     width: 100%;
 }
 
+header{
+  padding: 66px 0px 66px 0px;
+}
+
 #userInfoContainer{
     height: 100%;
 }
