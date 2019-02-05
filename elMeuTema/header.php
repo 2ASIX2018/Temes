@@ -24,6 +24,8 @@
       <div class="container">
         
    <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+
+   <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
         
 
        </div>
