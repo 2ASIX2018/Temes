@@ -2,27 +2,18 @@
 <main class="wrap">
   <section class="content-area content-thin col-md-9" style="float:left; margin-top:50px;">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-      <article class="article-loop">
+      <article class="article-full">
         <header>
-          <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+          <h2><?php the_title(); ?></h2>
           By: <?php the_author(); ?>
         </header>
-        <?php the_excerpt(); ?>
+        <?php the_content(); ?>
       </article>
 <?php endwhile; else : ?>
       <article>
-        <p>No s'ha trobat cap post en esta categoria</p>
+        <p>La pàgina no exiseix</p>
       </article>
 <?php endif; ?>
   </section><?php get_sidebar(); ?>
 </main>
 <?php get_footer(); ?>
-
-
-
-<!--?php get_header(); ?>
-
-Pàgina principal, contingut per afegir...
-
-< ?php get_footer(); ? -->
-

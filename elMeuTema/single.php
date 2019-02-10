@@ -4,7 +4,7 @@ get_header();
 
 
 <section class="container">
-<article class="col-md-12">
+<article class="col-md-9" style="float:left; margin-top:50px;">
 
 <?php 
     // Carreguem el contingut del post, que es troba a
